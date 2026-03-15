@@ -11,7 +11,7 @@ Implementar uma rede que opere no **Dual-Stack**, para permitir que os dispositi
 * **Validação End-to-End:** Testes de conectividade (ICMP) bem-sucedidos em ambas as versões de IP.
 
 ### 📝 Principais Comandos Executados
-` ` `bash
+```bash
 # Ativação Global do IPv6
 R1-DualStack(config)# ipv6 unicast-routing
 
@@ -20,6 +20,6 @@ R1-DualStack(config)# interface gigabitEthernet 0/0
 R1-DualStack(config-if)# ip address 192.168.1.1 255.255.255.0
 R1-DualStack(config-if)# ipv6 address 2001:db8:acad:1::1/64
 R1-DualStack(config-if)# no shutdown
-` ` `
+```
 
 ### 📸 Validação e Testes
