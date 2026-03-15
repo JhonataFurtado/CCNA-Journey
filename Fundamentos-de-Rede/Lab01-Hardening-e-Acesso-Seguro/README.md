@@ -5,7 +5,7 @@
 Configurar um roteador Cisco do zero, aplicando práticas de segurança de acesso (Hardening). O foco foi garantir acesso remoto criptografado (SSH), proteger o acesso físico (Console) e criar um banco de dados local para rastreabilidade, desativando protocolos sem segurança como o Telnet.
 
 ### 🛠️ Tecnologias e Configurações Aplicadas
-* **Equipamentos Utilizados:** Roteador 2911 e Switch 2960.
+* **Equipamento Utilizado:** Roteador 2911.
 * **Criptografia:** Geração de chaves RSA (1024 bits) para suporte ao SSH.
 * **Autenticação Local:** Criação de usuários com privilégios específicos (`username / secret`) atrelados ao comando `login local`.
 * **Proteção Física e Remota:** Senhas blindadas (`enable secret`), bloqueio de Telnet (`transport input ssh`) e timeout de inatividade (`exec-timeout`).
