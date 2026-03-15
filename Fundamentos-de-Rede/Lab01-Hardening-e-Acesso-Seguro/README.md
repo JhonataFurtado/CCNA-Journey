@@ -25,6 +25,7 @@ enable secret [SENHA_OCULTA]
 # Hardening das Linhas VTY (SSH) e Console
 line vty 0 4
  transport input ssh
+ logging synchronous
  login local
  exec-timeout 2 0
 
